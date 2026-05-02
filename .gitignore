@@ -7,6 +7,7 @@
 .sfdx/
 .localdevserver/
 deploy-options.json
+.localdev
 
 # LWC VSCode autocomplete
 **/lwc/jsconfig.json
@@ -33,6 +34,9 @@ node_modules/
 # MacOS system files
 .DS_Store
 
+# Eslint cache
+.eslintcache
+
 # Windows system files
 Thumbs.db
 ehthumbs.db
@@ -46,3 +50,9 @@ $RECYCLE.BIN/
 **/__pycache__/
 **/.venv/
 **/venv/
+# Salesforce Analyzer results
+sca-results.csv
+sfca_results.json
+
+# Local environment variables
+.env
